@@ -1,0 +1,23 @@
+# YOLOv8 OBB 数据集配置文件 - 单类别 plate
+path: E:/Python_Project/ultralytics-main/mathon  # dataset root
+
+# 训练和验证图像路径（相对于path）
+train: images/train
+val: images/val
+test: images/test
+# 类别数量
+nc: 1
+
+# 类别名称
+names:
+  0: plate
+
+# 可选配置（推荐）
+# 图像尺寸
+# imgsz: 640
+
+# 批次大小（根据你的GPU内存调整）
+# batch: 16
+
+# 工作进程数
+# workers: 8
