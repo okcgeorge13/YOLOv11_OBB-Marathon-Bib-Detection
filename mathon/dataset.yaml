@@ -1,5 +1,5 @@
 # YOLOv8 OBB 数据集配置文件 - 单类别 plate
-path: E:/Python_Project/ultralytics-main/mathon  # dataset root
+path: E:/Python_Project/ultralytics-main/mathon # dataset root
 
 # 训练和验证图像路径（相对于path）
 train: images/train
